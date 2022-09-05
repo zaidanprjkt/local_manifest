@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <!-- Remote -->
+        <remote name="indraadp" fetch="https://github.com/indraadp" />
+
+        <!-- Trees -->
+        <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="indraadp" revision="nusantara" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="indraadp" revision="A11" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="kernel_xiaomi_juice" remote="indraadp" revision="test" clone-depth="1" />
+        
+        <!-- Clang 
+
+            
+</manifest>
