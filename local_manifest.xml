@@ -5,9 +5,9 @@
         <remote name="zaidannn7" fetch="https://github.com/zaidannn7" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="zaidannn7" revision="nusantara" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="zaidannn7" revision="posp" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="zaidannn7" revision="A11" clone-depth="1" />
-        <project path="kernel/xiaomi/juice" name="kernel_xiaomi_juice" remote="zaidannn7" revision="test" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="Xiaomi-Fury-Bengal-SD662" remote="zaidannn7" revision="main" clone-depth="1" />
         
 
 </manifest>
