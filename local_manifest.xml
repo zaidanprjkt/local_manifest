@@ -6,7 +6,7 @@
 
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="zaidannn7" revision="twelve-potato" clone-depth="1" />
-        <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="zaidannn7" revision="RS" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="zaidannn7" revision="twelve" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="Xiaomi-Fury-Bengal-SD662" remote="zaidannn7" revision="main" clone-depth="1" />
         
 
