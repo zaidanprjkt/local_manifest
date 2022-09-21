@@ -5,9 +5,11 @@
         <remote name="zaidannn7" fetch="https://github.com/zaidannn7" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="android_device_xiaomi_chime" remote="zaidannn7" revision="old" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="android_device_xiaomi_juice-2" remote="zaidannn7" revision="rice" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="vendor_xiaomi_juice-1" remote="zaidannn7" revision="12.0" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="guuji_kernel_juice" remote="zaidannn7" revision="main.stbl" clone-depth="1" />
         
+         <!-- Clang --> 
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
 
 </manifest>
