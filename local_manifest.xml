@@ -3,7 +3,6 @@
 
         <!-- Remote -->
         <remote name="zaidannn7" fetch="https://github.com/zaidannn7" />
-        <remote name="gitlab-clang" fetch="https://gitlab.com/ALKALiKong" />
 
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="zaidannn7" revision="12.1" clone-depth="1" />
@@ -11,6 +10,6 @@
         <project path="kernel/xiaomi/juice" name="guuji_kernel_juice" remote="zaidannn7" revision="main.stbl" clone-depth="1" />
         
         <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784b" name="prebuilts_clang_host_linux-x86_clang-r450784b" remote="gitlab-clang" revision="master" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r445002" name="AOSP-11/prebuilts_clang_host_linux-x86_clang-r445002" remote="github" revision="11" clone-depth="1" />
 
 </manifest>
