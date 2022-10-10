@@ -3,9 +3,13 @@
 
         <!-- Remote -->
         <remote name="zaidannn7" fetch="https://github.com/zaidannn7" />
-       
+
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="zaidannn7" revision="eleven-carbon" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="zaidannn7" revision="eleven" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="guuji_kernel_juice" remote="zaidannn7" revision="main.stbl" clone-depth="1" />
         
+        <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-r445002" name="AOSP-11/prebuilts_clang_host_linux-x86_clang-r445002" remote="github" revision="11" clone-depth="1" />
+
 </manifest>
