@@ -10,7 +10,7 @@
         <project path="kernel/xiaomi/juice" name="guuji_kernel_juice" remote="zaidannn7" revision="main.stbl" clone-depth="1" />
        
         <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-416813b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r416813b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" clone-depth="1" />
 
 </manifest>
  
