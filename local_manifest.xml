@@ -3,15 +3,14 @@
 
         <!-- Remote -->
         <remote name="zaidannn7" fetch="https://github.com/zaidannn7" />
-        <remote name="gitlab-me" fetch="https://gitlab.com/GhostMaster69-dev" />
-
+        
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="zaidannn7" revision="twelve-ssos" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="zaidannn7" revision="twelve" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="guuji_kernel_juice" remote="zaidannn7" revision="main.stbl" clone-depth="1" />
        
         <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-416813b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" clone-depth="1" />
 
 </manifest>
  
