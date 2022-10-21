@@ -12,5 +12,9 @@
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r416813b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" clone-depth="1" />
 
+        <!-- Extras -->
+        <remove-project name="android_frameworks_native" />
+        <project path="frameworks/native" name="android_frameworks_native" remote="zaidannn7" />
+
 </manifest>
  
