@@ -14,7 +14,7 @@
         <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="master" clone-depth="1" />
         
         <!-- Extras -->
-        <remove project name="device_qcom_sepolicy" />
+        <remove-project name="device_qcom_sepolicy" />
         <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="zaidannn7" />
 
 </manifest>
