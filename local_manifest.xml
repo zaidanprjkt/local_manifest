@@ -3,6 +3,7 @@
 
         <!-- Remote -->
         <remote name="zaidannn7" fetch="https://github.com/zaidannn7" />
+        <remote name="ytta" fetch="https://github.com/AOSP-11" />
 
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="zaidannn7" revision="eleven-carbon" clone-depth="1" />
@@ -10,6 +11,6 @@
         <project path="kernel/xiaomi/juice" name="guuji_kernel_juice" remote="zaidannn7" revision="test" clone-depth="1" />
         
         <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r445002" name="AOSP-11/prebuilts_clang_host_linux-x86_clang-r445002" remote="github" revision="11" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r445002" name="prebuilts_clang_host_linux-x86_clang-r445002" remote="ytta" revision="11" clone-depth="1" />
 
 </manifest>
