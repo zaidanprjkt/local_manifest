@@ -3,7 +3,7 @@
 
         <!-- Remote -->
         <remote name="zaidannn7" fetch="https://github.com/zaidannn7" />
-        <remote name="gitlab" fetch="https://github.com/kdrag0n" />
+        <remote name="gitlab" fetch="https://gitlab.com/LeCmnGend" />
 
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="zaidannn7" revision="eleven-carbon" clone-depth="1" />
