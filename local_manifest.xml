@@ -3,7 +3,7 @@
 
         <!-- Remote -->
         <remote name="zaidannn7" fetch="https://github.com/zaidannn7" />
-        <remote name="gitlab" fetch="https://gitlab.com/LeCmnGend" />
+        <remote name="rem" fetch="https://github.com" />
 
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="zaidannn7" revision="eleven-carbon" clone-depth="1" />
@@ -11,6 +11,5 @@
         <project path="kernel/xiaomi/juice" name="Xiaomi-Fury-Bengal-SD662" remote="zaidannn7" revision="main" clone-depth="1" />
         
         <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="gitlab" revision="clang-15" clone-depth="1" />
-
+        <project path="prebuilts/clang/host/linux-x86/gabuters-clang" name="Gabuters-Dev/gabuters-clang" remote="rem" revision="master" />
 </manifest>
