@@ -11,6 +11,6 @@
         <project path="kernel/xiaomi/juice" name="guuji_kernel_juice" remote="zaidannn7" revision="test" clone-depth="1" />
 
         <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" remote="rem" revision="master" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="rem" revision="master" clone-depth="1" />
 
 </manifest>
