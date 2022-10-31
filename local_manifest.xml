@@ -12,5 +12,4 @@
 
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="gitlab" revision="clang-15" clone-depth="1" />
-
 </manifest>
