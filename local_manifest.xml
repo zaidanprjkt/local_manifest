@@ -3,7 +3,7 @@
 
         <!-- Remote -->
         <remote name="zaidannn7" fetch="https://github.com/zaidannn7" />
-        <remote name="gitlab" fetch="https://gitlab.com/GhostMaster69-dev" />
+        <remote name="gitlab-gtw" fetch="https://gitlab.com/GhostMaster69-dev" />
 
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="device_xiaomi_juice-3" remote="zaidannn7" revision="Awaken12.1" clone-depth="1" />
@@ -11,7 +11,7 @@
         <project path="kernel/xiaomi/juice" name="guuji_kernel_juice" remote="zaidannn7" revision="test" clone-depth="1" />
         
         <!-- Cosmic clang Toolchain -->
-        <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="master" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-gtw" revision="master" clone-depth="1" />
         
 </manifest>
  
