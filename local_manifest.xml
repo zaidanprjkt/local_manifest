@@ -27,7 +27,7 @@
 
         <!-- Extras -->
         <remove-project name="device/qcom/sepolicy" />
-        <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="zaidannn7" revision="A12" />
+        <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="zaidannn7" revision="A12" clone-depth="1" />
 
 </manifest>
  
