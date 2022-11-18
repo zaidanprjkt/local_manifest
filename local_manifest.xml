@@ -5,6 +5,8 @@
         <remote name="zaidannn7" fetch="https://github.com/zaidannn7" />
         <remote name="frost" fetch="https://github.com/frostg-012" />
         <remote name="frost1" fetch="https://github.com/frstprjkt" />
+        <remote name="clang" fetch="https://github.com/kdrag0n" />
+
 
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="zaidannn7" revision="thirteen" clone-depth="1" />
@@ -12,7 +14,7 @@
         <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime" remote="frost" revision="thirteen" clone-depth="1" />
         
         <!-- Cosmic clang Toolchain -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="AOSP-Clang" remote="gitlab-2" revision="14.0.6" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="14.0.6" clone-depth="1" />
         
 </manifest>
  
