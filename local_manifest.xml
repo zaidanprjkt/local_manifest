@@ -3,13 +3,13 @@
 
         <!-- Remote -->
         <remote name="zaidannn7" fetch="https://github.com/zaidannn7" />
-        <remote name="gitlab-1" fetch="https://gitlab.com/RayapKun" />
-        <remote name="gitlab-2" fetch="https://gitlab.com/ImLonely13" />
+        <remote name="frost" fetch="https://github.com/frostg-012" />
+        <remote name="frost1" fetch="https://github.com/frstprjkt" />
 
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="zaidannn7" revision="thirteen" clone-depth="1" />
-        <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlab-1" revision="thirteen" clone-depth="1" />
-        <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime-anya" remote="zaidannn7" revision="thirteen" clone-depth="1" />
+        <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="frost1" revision="thirteen" clone-depth="1" />
+        <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime" remote="frost" revision="thirteen" clone-depth="1" />
         
         <!-- Cosmic clang Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="AOSP-Clang" remote="gitlab-2" revision="14.0.6" clone-depth="1" />
