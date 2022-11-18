@@ -11,7 +11,7 @@
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="device_xiaomi_chime-a13" remote="zaidannn7" revision="thirteen" clone-depth="1" />
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="frost1" revision="thirteen" clone-depth="1" />
-        <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime" remote="frost" revision="thirteen" clone-depth="1" />
+        <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime" remote="frost" revision="main" clone-depth="1" />
         
         <!-- Proton clang Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang-proton-github" revision="master" clone-depth="1" />
