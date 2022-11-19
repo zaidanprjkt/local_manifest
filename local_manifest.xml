@@ -10,7 +10,7 @@
         
         <!-- Extras -->
         <remove-project name="device_qcom_sepolicy" />
-        <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="zaidannn7" revision="A12" />
+        <project path="device/qcom/sepolicy" name="AOSPK/device_qcom_sepolicy" remote="github" revision="twelve" />
 
 </manifest>
  
