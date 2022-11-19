@@ -10,7 +10,7 @@
         
         <!-- HAL -->
         <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="sapphire-bengal" />
-        <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github" revision="main" />
+        <project path="hardware/qcom/media" name="zaidanprjkt/android_hardware_qcom_media" remote="github" revision="main" />
         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="main" />
        
 
