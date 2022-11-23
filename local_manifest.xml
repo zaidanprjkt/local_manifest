@@ -5,8 +5,8 @@
         <remote name="zaidannn7" fetch="https://github.com/zaidannn7" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="zaidannn7" revision="p404" clone-depth="1" />
-        <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="zaidannn7" revision="twelve" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="device_xiaomi_juice-1" remote="zaidannn7" revision="12.1" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="kalkioss/vendor_xiaomi_juice" remote="github" revision="snow" clone-depth="1" />
         
         <!-- HAL -->
         <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="sapphire-bengal" />
