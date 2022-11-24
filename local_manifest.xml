@@ -14,7 +14,7 @@
         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="sapphire-bengal" />
         
         <!-- Remove -->
-        <remove-project name="P-404/android_vendor_qcom_opensource_commonsys_system_bt" />
+        <remove-project name="android_vendor_qcom_opensource_commonsys_system_bt" />
 
 </manifest>
  
