@@ -3,6 +3,7 @@
 
         <!-- Remote -->
         <remote name="zaidannn7" fetch="https://github.com/zaidannn7" />
+        <remote name="gitlabevox" fetch="https://gitlab.com/EvoX" />
 
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="device_xiaomi_juice-1" remote="zaidannn7" revision="lighthouse" clone-depth="1" />
@@ -10,6 +11,7 @@
         
         <!-- Extras -->
         <remove-project name="vendor_gapps" />
+        <project path="vendor/gms" name="vendor_gapps" remote="gitlabevox" clone-depth="1" revision="snow" />
         
 </manifest>
  
