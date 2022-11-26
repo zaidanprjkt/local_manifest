@@ -8,10 +8,6 @@
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="device_xiaomi_juice-1" remote="zaidannn7" revision="kosp" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="vendor_xiaomi_juice-2" remote="zaidannn7" revision="snow" clone-depth="1" />
-        <project path="kernel/xiaomi/juice" name="guuji_xiaomi_juice" remote="zaidannn7" revision="main.stbl" clone-depth="1" />
-       
-        <!-- proton clang Toolchain -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="gitlabclng" revision="clang-15" clone-depth="1" />
         
         <!-- Extras -->
         <remove-project name="device_qcom_sepolicy" />
