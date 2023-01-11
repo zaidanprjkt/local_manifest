@@ -6,7 +6,7 @@
 
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="device_xiaomi_juice-1" remote="zaidannn7" revision="kosp" clone-depth="1" />
-        <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice-1" remote="zaidannn7" revision="twelve" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="zaidannn7" revision="twelve" clone-depth="1" />
         
 </manifest>
  
