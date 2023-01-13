@@ -12,7 +12,7 @@
         <remove-project name="device_qcom_sepolicy" />
         <project path="device/qcom/sepolicy" name="ArrowOS/android_device_qcom_sepolicy" remote="github" revision="arrow-12.1" clone-depth="1" />
 
-        <!-- Hals --->
+        <!-- Hals -->
         <project path="hardware/qcom-caf/sm8250/display" name="ArrowOS/android_hardware_qcom_display" remote="github" revision="arrow-12.1-caf-sm8250" clone-depth="1" />
         <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" remote="arrow" revision="arrow-12.1-caf-sm8250" clone-depth="1" />
         <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" remote="arrow" revision="arrow-12.1-caf-sm8250" clone-depth="1" />
