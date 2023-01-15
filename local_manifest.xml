@@ -2,7 +2,7 @@
 <manifest>
 
         <!-- Remote -->
-        <remote name="gitlabvndr" fetch="https://gitlab.com/cosm1f" />
+        <remote name="gitlabvndr" fetch="https://gitlab.com/hiirakuun />
        
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="zaidanprjkt/device_xiaomi_chime" remote="zaidannn7" revision="thirteen" clone-depth="1" />
