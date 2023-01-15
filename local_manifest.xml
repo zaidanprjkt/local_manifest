@@ -3,15 +3,10 @@
 
         <!-- Remote -->
         <remote name="gitlabvndr" fetch="https://gitlab.com/cosm1f" />
-        <remote name="gitlabclng" fetch="https://gitlab.com/LeCmnGend" />
-
+       
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="zaidanprjkt/device_xiaomi_chime" remote="zaidannn7" revision="thirteen" clone-depth="1" />
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvndr" revision="tokyo" clone-depth="1" />
-        <project path="kernel/xiaomi/chime" name="ChimeOSS/kernel_xiaomi_chime" remote="github" revision="lineage-19.1" clone-depth="1" />
-
-        <!-- proton clang Toolchain -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="gitlabclng" revision="clang-15" clone-depth="1" />
-
+        
 </manifest>
  
