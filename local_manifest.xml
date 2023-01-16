@@ -10,6 +10,6 @@
       
         <!-- Remove -->
         <remove-project name="CarbonROM/android_frameworks_base" />
-        <project path="frameworks/base" name="zaidannn7/frameworks-carbon" clone-depth=1 />
+        <project path="frameworks/base" name="zaidannn7/framework-carbon" clone-depth=1 />
 
 </manifest>
