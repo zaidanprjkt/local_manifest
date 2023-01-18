@@ -9,7 +9,7 @@
         <project path="vendor/xiaomi/juice" name="hiirakuun/vendor_xiaomi_juice" remote="zaidannn7" revision="11" clone-depth="1" />
       
         <!-- Remove -->
-        <remove-project name="CarbonROM/android_frameworks_base" />
-        <project path="frameworks/base" name="zaidannn7/framework-carbon" clone-depth=1 />
+        <remove-project name="android_frameworks_base" />
+        <project path="frameworks/base" name="framework-carbon" remote="zaidannn7" clone-depth=1 />
 
 </manifest>
