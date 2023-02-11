@@ -3,10 +3,13 @@
 
         <!-- Remote -->
         <remote name="gitlabvendor" fetch="https://gitlab.com/hiirakuun" />
-               
+        <remote name="clang" fetch="https://gitlab.com/Amritorock" />
+
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="zaidanprjkt/device_xiaomi_chime" revision="thirteen" clone-depth="1" />
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvendor" revision="tokyo" clone-depth="1" />
-       
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+  
+
 </manifest>
  
