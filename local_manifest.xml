@@ -7,6 +7,5 @@
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="zaidanprjkt/device_xiaomi_chime" remote="zaidannn7" revision="thirteen" clone-depth="1" />
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvndr" revision="tokyo" clone-depth="1" />
-        
 </manifest>
  
