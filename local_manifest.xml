@@ -10,6 +10,10 @@
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvendor" revision="tokyo" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   
+        <!--- Replace-->
+        <remove-project name="ricedroidOSS/android_build" />
+        <project path="frameworks/base" name="zaidannn7/android_build" revision="thirteen" />
+
 
 </manifest>
  
