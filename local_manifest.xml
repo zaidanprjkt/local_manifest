@@ -2,11 +2,11 @@
 <manifest>
 
         <!-- Remote -->
-        <remote name="zaidannn7" fetch="https://github.com/zaidannn7" />
+        <remote name="gitlabvendor" fetch="https://gitlab.com/hiirakuun" />
                
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="device_xiaomi_juice-1" remote="zaidannn7" revision="yaap" clone-depth="1" />
-        <project path="vendor/xiaomi/juice" name="vendor_xiaomi_juice-2" remote="zaidannn7" revision="snow" clone-depth="1" />
+        <project path="device/xiaomi/chime" name="zaidanprjkt/device_xiaomi_chime" revision="thirteen" clone-depth="1" />
+        <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvendor" revision="tokyo" clone-depth="1" />
        
 </manifest>
  
