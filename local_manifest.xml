@@ -3,8 +3,8 @@
 
         <!-- Remote -->
         <remote name="gitlabvendor" fetch="https://gitlab.com/hiirakuun" />
-        <remote name="prjkt" fetch="https://github.com/zaidanprjkt />
-        <remote name="gf" fetch="https://github.com/greenforce-project />
+        <remote name="prjkt" fetch="https://github.com/zaidanprjkt" />
+        <remote name="gf" fetch="https://github.com/greenforce-project" />
 
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="prjkt" revision="thirteen" clone-depth="1" />
