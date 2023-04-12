@@ -5,13 +5,11 @@
         <remote name="gitlabvendor" fetch="https://gitlab.com/hiirakuun" />
         <remote name="prjkt" fetch="https://github.com/zaidanprjkt" />
         <remote name="gf" fetch="https://github.com/greenforce-project" />
-        <remote name="pex" fetch="https://github.com/PixelExperience" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="prjkt" revision="thirteen" clone-depth="1" />
+        <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="prjkt" revision="spark" clone-depth="1" />
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvendor" revision="tokyo" clone-depth="1" />
         <project path="kernel/xiaomi/chime" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="main" clone-depth="1" />
-        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pex" revision="thirteen" clone-depth="1" />
 
 </manifest>
  
