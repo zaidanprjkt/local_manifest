@@ -14,6 +14,8 @@
         <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="thirteen" clone-depth="1" />
         
         
-             
+        <remove-project name="packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="zaidannn7/packages_apps_Settings" remote="github" revision="thirteen" clone-depth="1" />
+        
 </manifest>
  
