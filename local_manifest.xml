@@ -15,7 +15,12 @@
         
         
         <remove-project name="packages_apps_Settings" />
+        <remove-project name="frameworks_base" />
+        <remove-project name="packages_apps_YASP" />
         <project path="packages/apps/Settings" name="zaidannn7/packages_apps_Settings" remote="github" revision="thirteen" clone-depth="1" />
+        <project path="frameworks/base" name="yaap_frameworks_base" remote="prjkt" revision="thirteen" clone-depth="1" />
+        <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="prjkt" revision="thirteen" clone-depth="1" />
+        
         
 </manifest>
  
