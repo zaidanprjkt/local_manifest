@@ -21,7 +21,7 @@
         <project path="packages/apps/Settings" name="zaidannn7/packages_apps_Settings" remote="github" revision="thirteen" clone-depth="1" />
         <project path="frameworks/base" name="yaap_frameworks_base" remote="prjkt" revision="thirteen" clone-depth="1" />
         <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="prjkt" revision="thirteen" clone-depth="1" />
-        <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="prjkt" clone-depth="1 />
+        <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" revision="thirteen" remote="prjkt" clone-depth="1 />
         
         
 </manifest>
