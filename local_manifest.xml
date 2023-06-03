@@ -11,15 +11,6 @@
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvendor" revision="tokyo" clone-depth="1" />
         <project path="kernel/xiaomi/chime" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="main" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-        <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="thirteen" clone-depth="1" />
-        
-        
-        <remove-project name="packages_apps_Settings" />
-        <remove-project name="frameworks_base" />
-        <remove-project name="packages_apps_YASP" />
-        <project path="packages/apps/Settings" name="zaidannn7/packages_apps_Settings" remote="github" revision="thirteen" clone-depth="1" />
-        <project path="frameworks/base" name="yaap_frameworks_base" remote="prjkt" revision="thirteen" clone-depth="1" />
-        <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="prjkt" revision="thirteen" clone-depth="1" />
         
         
 </manifest>
