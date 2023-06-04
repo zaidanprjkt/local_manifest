@@ -12,7 +12,5 @@
         <project path="kernel/xiaomi/chime" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="main" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
         
-        <remove-project name="vendor_evolution" />
-        <project path="vendor/evolution" name="zaidannn7/vendor_evolution" remote="github" revision="thirteen" clone-depth="1" />
-</manifest>
+        </manifest>
  
