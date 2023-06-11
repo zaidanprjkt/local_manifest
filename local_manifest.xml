@@ -11,7 +11,7 @@
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvendor" revision="tokyo" clone-depth="1" />
         <project path="kernel/xiaomi/chime" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="main" clone-depth="1" />
         
-        <!-- Others --->
+        <!-- Others -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
         <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="thirteen" clone-depth="1" />
         <project path="external/skia" name="RisingTechOSS/android_external_skia" remote="github" revision="thirteen" clone-depth="1" />
