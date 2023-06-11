@@ -14,6 +14,8 @@
         <!-- Others -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
         <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="thirteen" clone-depth="1" />
+        
+        <remove-project name="platform/external/skia" />
         <project path="external/skia" name="RisingTechOSS/android_external_skia" remote="github" revision="thirteen" clone-depth="1" />
         
         <remove-project name="frameworks_native" />
