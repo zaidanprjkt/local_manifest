@@ -19,10 +19,10 @@
         <project path="external/skia" name="RisingTechOSS/android_external_skia" remote="github" revision="thirteen" clone-depth="1" />
         
         <remove-project name="frameworks_native" />
-        <project path="frameworks/native" name="zaidannn7/frameworks_native" remote="github" revision="xt" clone-depth="1" />
+        <project path="frameworks/native" name="frameworks_native" remote="prjkt" revision="xt" clone-depth="1" />
         
         <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="zaidannn7/frameworks_base" remote="github" revision="xt" clone-depth="1" />
+        <project path="frameworks/base" name="frameworks_base" remote="prjkt" revision="xt" clone-depth="1" />
 
 
         
