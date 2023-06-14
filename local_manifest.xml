@@ -23,7 +23,11 @@
         
         <remove-project name="frameworks_base" />
         <project path="frameworks/base" name="zaidanprjkt/frameworks_base" remote="github" revision="xt" clone-depth="1" />
-
+        
+        <remove-project name="platform/hardware/google/pixel" />
+        <project path="hardware/google/pixel" name="zaidanprjkt/hardware_google_pixel" remote="github" revision="thirteen" />
+        
+        
 
         
         
