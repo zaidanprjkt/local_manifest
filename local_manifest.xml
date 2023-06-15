@@ -26,6 +26,10 @@
         
         <remove-project name="platform/hardware/google/pixel" />
         <project path="hardware/google/pixel" name="zaidanprjkt/hardware_google_pixel" remote="github" revision="thirteen" />
+
+        <remove-project name="platform/hardware/google/interfaces" />
+        <project path="hardware/google/interfaces" name="zaidanprjkt/hardware_interfaces" remote="github" revision="thirteen" />
+        
         
         
 
