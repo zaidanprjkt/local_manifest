@@ -19,11 +19,5 @@
         <remove-project name="RisingTechOSS/android_frameworks_base" />
         <project path="frameworks/base" name="zaidannn7/android_frameworks_base"  remote="github" revision="thirteen" />
 
-        <remove-project name="RisingTechOSS/android_frameworks_native" />
-        <project path="frameworks/native" name="minaripenguin/android_frameworks_native"  remote="github" revision="thirteen" />   
-
-        <remove-project name="RisingTechOSS/android_packages_apps_Personalizations" />
-        <project path="packages/apps/Personalizations" name="zaidannn7/android_packages_apps_Personalizations" remote="github" revision="thirteen" />
-
        </manifest>
  
