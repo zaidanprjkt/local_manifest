@@ -3,22 +3,25 @@
 
         <!-- Remote -->
         <remote name="zaidannn7" fetch="https://github.com/zaidannn7" />
-      
+        <remote name="gitlab" fetch="https://gitlab.com/" />
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="zaidannn7" revision="main" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="zaidannn7" revision="eleven" clone-depth="1" />
       
         <!-- Remove -->
-        <remove-project name="crdroidandroid/android_frameworks_base" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+        
+        
+        <remove-project name="crdroidandroid/android_frameworks_base" remote="crdroid" />
         <project path="frameworks/base" name="android_frameworks_base_cr" remote="zaidannn7" revision="11.0" clone-depth=1 />
 
-        <remove-project name="crdroidandroid/android_build_soong" />
+        <remove-project name="crdroidandroid/android_build_soong" remote="crdroid" />
         
     <project path="build/soong" name="android_build_soong" remote="zaidannn7" revision="11.0" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-        <remove-project name="crdroidandroid/android_system_core" />
+        <remove-project name="crdroidandroid/android_system_core" remote="crdroid" />
        <project path="system/core" name="android_system_core" remote="zaidannn7" revision="11.0" />
 
 
