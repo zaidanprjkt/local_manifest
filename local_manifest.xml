@@ -13,7 +13,7 @@
         
         
         <remove-project name="crdroidandroid/android_frameworks_base" remote="crdroid" />
-        <project path="frameworks/base" name="android_frameworks_base_cr" remote="zaidannn7" revision="11.0" clone-depth=1 />
+        <project path="frameworks/base" name="android_frameworks_base_cr" remote="zaidannn7" revision="11.0" clone-depth="1" />
 
         <remove-project name="crdroidandroid/android_build_soong" remote="crdroid" />
         
