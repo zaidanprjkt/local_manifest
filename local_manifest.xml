@@ -27,7 +27,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
         <remove-project name="crdroidandroid/android_system_core" />
-       <project path="system/core" name="android_system_core" remote="ch" revision="11.0" />
+       <project path="system/core" name="android_system_core" remote="prjkt" revision="11.0" />
 
         <remove-project name="crdroidandroid/android_frameworks_native" />
       <project path="frameworks/native" name="android_frameworks_native" remote="ch" revision="11.0" clone-depth="1" />
