@@ -5,10 +5,13 @@
         <remote name="zaidannn7" fetch="https://github.com/zaidannn7" />
         <remote name="gitlab" fetch="https://gitlab.com/" />
         <remote name="ch" fetch="https://github.com/tstprjkt" />
+       <remote name="prjkt" fetch="https://github.com/zaidanprjkt" />
+  
+
      
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="zaidannn7" revision="main" clone-depth="1" />
-        <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="zaidannn7" revision="eleven" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="prjkt" revision="main" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="prjkt" revision="eleven" clone-depth="1" />
       
         <!-- Remove -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
