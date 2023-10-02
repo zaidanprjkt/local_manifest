@@ -10,31 +10,31 @@
 
      
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="prjkt" revision="main" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="prjkt" revision="carbon" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="prjkt" revision="eleven" clone-depth="1" />
       
-        <!-- Remove -->
+        <!-- Another -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
         
         
-        <remove-project name="crdroidandroid/android_frameworks_base" />
-        <project path="frameworks/base" name="android_frameworks_base_cr" remote="ch" revision="11.0" clone-depth="1" />
+        <remove-project name="CarbonROM/android_frameworks_base" />
+        <project path="frameworks/base" name="android_frameworks_base-carbon" remote="ch" revision="cr-9.0" clone-depth="1" />
 
-        <remove-project name="crdroidandroid/android_build_soong" />
+        <remove-project name="CarbonROM/android_build_soong" />
         
-    <project path="build/soong" name="android_build_soong" remote="ch" revision="11.0" >
+    <project path="build/soong" name="android_build_soong-carbon" remote="ch" revision="cr-9.0" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-        <remove-project name="crdroidandroid/android_system_core" />
-       <project path="system/core" name="android_system_core" remote="prjkt" revision="11.0" />
+        <remove-project name="CarbonROM/android_system_core" />
+    <project path="system/core" name="android_system_core-carbon" remote="ch" revision="cr-9.0" />
 
-        <remove-project name="crdroidandroid/android_frameworks_native" />
-      <project path="frameworks/native" name="android_frameworks_native" remote="ch" revision="11.0" clone-depth="1" />
+        <remove-project name="CarbonROM/android_frameworks_native" />
+      <project path="frameworks/native" name="android_frameworks_native-carbon" remote="ch" revision="cr-9.0" clone-depth="1" />
 
         
-      <remove-project name="crdroidandroid/android_packages_apps_settings" />
-    <project path="packages/apps/Settings" name="android_packages_apps_settings" remote="ch" revision="11.0" clone-depth="1" />
+      <remove-project name="CarbonROM/android_packages_apps_Settings" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings-carbon" remote="ch" revision="cr-9.0" clone-depth="1" />
 
                 
 </manifest>
