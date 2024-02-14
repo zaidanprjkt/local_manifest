@@ -11,6 +11,7 @@
         <project path="vendor/xiaomi/sm6115-common" name="vendor_xiaomi_sm6115-common" remote="prjkt" revision="thirteen" clone-depth="1" />
         <project path="vendor/xiaomi/lime" name="vendor_xiaomi_lime" remote="prjkt" revision="thirteen" clone-depth="1" />
         <project path="kernel/xiaomi/sm6115" name="greenforce-project/kernel_xiaomi_citrus_sm6115" remote="github" revision="main" clone-depth="1" />
+
         
        </manifest>
  
