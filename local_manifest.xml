@@ -4,12 +4,13 @@
         <!-- Remote -->
         <remote name="prjkt" fetch="https://github.com/zaidanprjkt" />
         <remote name="gf" fetch="https://github.com/greenforce-project" />
+        <remote name="pex" fetch="https://github.com/PixelExperience" />
 
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="device_xiaomi_sm6115-common" remote="prjkt" revision="arrow" clone-depth="1" />
         <project path="vendor/xiaomi/chime" name="hac4us06/vendor_xiaomi_chime" remote="github" revision="13" clone-depth="1" />
         <project path="vendor/xiaomi/lime" name="hac4us06/vendor_xiaomi_lime" remote="github" revision="13" clone-depth="1" />
-        <project path="kernel/xiaomi/sm6115" name="greenforce-project/kernel_xiaomi_citrus_sm6115" remote="github" revision="main" clone-depth="1" />
-        
+        <project path="kernel/xiaomi/chime" name="greenforce-project/kernel_xiaomi_citrus_sm6115" remote="github" revision="main" clone-depth="1" />
+        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pex" revision="thirteen" clone-depth="1" />
        </manifest>
  
