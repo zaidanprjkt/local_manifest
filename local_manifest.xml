@@ -7,7 +7,7 @@
 
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="device_xiaomi_sm6115-common" remote="prjkt" revision="arrow" clone-depth="1" />
-        <project path="vendor/xiaomi/sm6115-common" name="hac4us06/vendor_xiaomi_chime" remote="github" revision="13" clone-depth="1" />
+        <project path="vendor/xiaomi/chime" name="hac4us06/vendor_xiaomi_chime" remote="github" revision="13" clone-depth="1" />
         <project path="vendor/xiaomi/lime" name="hac4us06/vendor_xiaomi_lime" remote="github" revision="13" clone-depth="1" />
         <project path="kernel/xiaomi/sm6115" name="greenforce-project/kernel_xiaomi_citrus_sm6115" remote="github" revision="main" clone-depth="1" />
         
