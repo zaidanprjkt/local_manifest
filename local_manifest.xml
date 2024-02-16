@@ -11,11 +11,16 @@
         <project path="vendor/xiaomi/lime" name="hac4us06/vendor_xiaomi_lime" remote="github" revision="13" clone-depth="1" />
         <project path="kernel/xiaomi/chime" name="frstprjkt/kernel_xiaomi_chime-anya" remote="github" revision="twelve" clone-depth="1" />
 
-        <remove-project name="RisingTechOSS/android_vendor_rising"/>
+        <remove-project name="RisingTechOSS/android_vendor_rising" />
         <project path="vendor/lineage" name="zaidanprjkt/android_vendor_rising" remote="github" revision="thirteen" />
 
-        <remove-project name="RisingTechOSS/android_frameworks_base"/>
+        <remove-project name="RisingTechOSS/android_frameworks_base" />
         <project path="frameworks/base" name="tstprjkt/android_frameworks_base_rice" remote="github" revision="thirteen" />
+
+        <remove-project name="LineageOS/android_packages_providers_DownloadProvider" />
+        <project path="packages/providers/DownloadProvider" name="tstprjkt/android_packages_providers_DownloadProvider" remote="github" revision="lineage-20.0" />
+
+
         
        </manifest>
  
