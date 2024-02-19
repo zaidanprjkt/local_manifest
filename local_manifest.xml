@@ -7,7 +7,7 @@
 
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="device_xiaomi_sm6115-common" remote="prjkt" revision="fourteen" clone-depth="1" />
-        <project path="vendor/xiaomi/chime" name="hac4us06/vendor_xiaomi_chime" remote="github" revision="thirteen" clone-depth="1" />
+        <project path="vendor/xiaomi/chime" name="hac4us06/vendor_xiaomi_chime" remote="github" revision="13" clone-depth="1" />
         <project path="vendor/xiaomi/lime" name="hac4us06/vendor_xiaomi_lime" remote="github" revision="thirteen" clone-depth="1" />
         <project path="kernel/xiaomi/chime" name="frstprjkt/kernel_xiaomi_chime-anya" remote="github" revision="twelve" clone-depth="1" />
 
