@@ -12,6 +12,6 @@
         <project path="kernel/xiaomi/chime" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="main" clone-depth="1" />
 
         <remove-project name="android_frameworks_base" />
-        
+        <project path="frameworks/base" name="tstprjkt/frameworks_base" remote="github" revision="13" />
 </manifest>
  
