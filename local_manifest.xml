@@ -4,7 +4,7 @@
         <!-- Remote -->
         <remote name="gitlabvendor" fetch="https://gitlab.com/zaidannn7" />
         <remote name="prjkt" fetch="https://github.com/zaidanprjkt" />
-        <remote name="github" fetch="https://github.com/"
+        <remote name="alter" fetch="https://github.com/tstprjkt"
         <remote name="gf" fetch="https://github.com/greenforce-project" />
 
         <!-- Trees -->
@@ -13,7 +13,7 @@
         <project path="kernel/xiaomi/chime" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="main" clone-depth="1" />
 
         <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="tstprjkt/frameworks_base" remote="github" revision="13" />
+        <project path="frameworks/base" name="tstprjkt/frameworks_base" remote="alter" revision="13" />
 
 </manifest>
  
