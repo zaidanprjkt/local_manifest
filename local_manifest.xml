@@ -13,5 +13,6 @@
 
         <remove-project name="android_frameworks_base" />
         <project path="frameworks/base" name="tstprjkt/frameworks_base" remote="github" revision="13" />
+
 </manifest>
  
