@@ -4,6 +4,7 @@
         <!-- Remote -->
         <remote name="gitlabvendor" fetch="https://gitlab.com/zaidannn7" />
         <remote name="prjkt" fetch="https://github.com/zaidanprjkt" />
+        <remote name="github" fetch="https://github.com/"
         <remote name="gf" fetch="https://github.com/greenforce-project" />
 
         <!-- Trees -->
