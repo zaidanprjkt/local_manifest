@@ -5,6 +5,8 @@
         <remote name="gitlabvendor" fetch="https://gitlab.com/zaidannn7" />
         <remote name="prjkt" fetch="https://github.com/zaidanprjkt" />
         <remote name="alter" fetch="https://github.com/tstprjkt" />
+        <remote name="pex" fetch="https://github.com/PixelExperience" />
+        
         <remote name="gf" fetch="https://github.com/greenforce-project" />
 
         <!-- Trees -->
@@ -15,5 +17,10 @@
         <remove-project name="frameworks_base" />
         <project path="frameworks/base" name="frameworks_base" remote="alter" revision="13" />
 
+        <remove-project name="android_hardware_xiaomi" />
+        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pex" revision="thirteen" clone-depth="1" />
+        
+   
+        
 </manifest>
  
