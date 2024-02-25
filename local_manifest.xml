@@ -7,12 +7,12 @@
         <remote name="alter" fetch="https://github.com/tstprjkt" />
         <remote name="pex" fetch="https://github.com/PixelExperience" />
         
-        <remote name="gf" fetch="https://github.com/greenforce-project" />
+        <remote name="gib" fetch="https://github.com/frstprjkt" />
 
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="prjkt" revision="afterlife" clone-depth="1" />
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvendor" revision="tokyo" clone-depth="1" />
-        <project path="kernel/xiaomi/chime" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="main" clone-depth="1" />
+        <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime-anya" remote="gib" revision="thirteen" clone-depth="1" />
 
         <remove-project name="frameworks_base" />
         <project path="frameworks/base" name="frameworks_base" remote="alter" revision="13" />
