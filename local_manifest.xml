@@ -17,9 +17,6 @@
         <remove-project name="frameworks_base" />
         <project path="frameworks/base" name="frameworks_base" remote="alter" revision="13" />
 
-        <remove-project name="android_hardware_xiaomi" />
-        <project path="hardware/xiaomi" name="LOSModified/android_hardware_xiaomi" remote="pex" revision="lineage-20.0" clone-depth="1" />
-
         <remove-project name="system_core" />
         <project path="system/core" name="system_core" remote="alter" revision="13" />
 
