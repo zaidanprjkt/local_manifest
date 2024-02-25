@@ -12,7 +12,7 @@
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="prjkt" revision="afterlife" clone-depth="1" />
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvendor" revision="tokyo" clone-depth="1" />
-        <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime-anya" remote="gib" revision="thirteen" clone-depth="1" />
+        <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime-anya" remote="gib" revision="twelve" clone-depth="1" />
 
         <remove-project name="frameworks_base" />
         <project path="frameworks/base" name="frameworks_base" remote="alter" revision="13" />
