@@ -5,7 +5,7 @@
         <remote name="gitlabvendor" fetch="https://gitlab.com/zaidannn7" />
         <remote name="prjkt" fetch="https://github.com/zaidanprjkt" />
         <remote name="alter" fetch="https://github.com/tstprjkt" />
-        <remote name="pex" fetch="https://github.com/PixelExperience" />
+        <remote name="pex" fetch="https://github.com/LOSModified" />
         
         <remote name="gib" fetch="https://github.com/frstprjkt" />
 
