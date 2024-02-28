@@ -10,7 +10,7 @@
         <remote name="gib" fetch="https://github.com/frstprjkt" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="prjkt" revision="afterlife" clone-depth="1" />
+        <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="prjkt" revision="blaze" clone-depth="1" />
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvendor" revision="tokyo" clone-depth="1" />
         <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime-anya" remote="gib" revision="twelve" clone-depth="1" />
 
@@ -31,8 +31,6 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
         </project>
 
-        <remove-project name="packages_modules_Permission" />
-        <project path="packages/modules/Permission" name="packages_modules_Permission" remote="alter" revision="13" />
-        
+                
 </manifest>
  
