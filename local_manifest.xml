@@ -15,7 +15,7 @@
         <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime-anya" remote="gib" revision="twelve" clone-depth="1" /> 
         
         <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base" remote="alter" revision="13" />
+        <project path="frameworks/base" name="frameworks_base-blaze" remote="alter" revision="13" />
 
         <remove-project name="system_core" />
         <project path="system/core" name="system_core" remote="alter" revision="13" />
