@@ -16,17 +16,6 @@
         
         <remove-project name="frameworks_base" />
         <project path="frameworks/base" name="frameworks_base-blaze" remote="alter" revision="13" />
-
-        <remove-project name="system_core" />
-        <project path="system/core" name="system_core" remote="alter" revision="13" />
-
-        <remove-project name="build_soong" />
         
-        <project path="build/soong" name="build_soong" remote="alter" revision="13" >
-        <linkfile src="root.bp" dest="Android.bp" />
-        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-        </project>
-
-                
 </manifest>
  
