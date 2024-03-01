@@ -18,13 +18,13 @@
         <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pex" revision="thirteen" clone-depth="1" />
         
         
-        <remove-project name="AICP/frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base" remote="alter" revision="t13.0" />
+        <!--remove-project name="AICP/frameworks_base" -->
+        <!-- project path="frameworks/base" name="frameworks_base" remote="alter" revision="t13.0" ->
 
-        <remove-project name="AICP/system_core" />
-        <project path="system/core" name="system_core" remote="alter" revision="t13.0" />
+        <!--remove-project name="AICP/system_core" -->
+        <!--project path="system/core" name="system_core" remote="alter" revision="t13.0" -->
 
-        <remove-project name="AICP/frameworks_native" />
+        <!--remove-project name="AICP/frameworks_native" -->
         
 </manifest>
  
