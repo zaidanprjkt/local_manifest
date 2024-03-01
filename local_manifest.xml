@@ -14,17 +14,11 @@
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvendor" revision="tokyo" clone-depth="1" />
         <project path="kernel/xiaomi/chime" name="frstprjkt/kernel_xiaomi_chime-anya" remote="hub" revision="twelve" clone-depth="1" />
 
-        <remove-project name="android_hardware_xiaomi" />
         <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pex" revision="thirteen" clone-depth="1" />
         
-        
-        <!--remove-project name="AICP/frameworks_base" -->
-        <!-- project path="frameworks/base" name="frameworks_base" remote="alter" revision="t13.0" ->
+        <remove-project name="AICP/packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="tstprjkt/packages_apps_Settings" remote="hub" revision="t13.0" />
 
-        <!--remove-project name="AICP/system_core" -->
-        <!--project path="system/core" name="system_core" remote="alter" revision="t13.0" -->
-
-        <!--remove-project name="AICP/frameworks_native" -->
         
 </manifest>
  
