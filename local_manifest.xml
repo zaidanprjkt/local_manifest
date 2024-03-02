@@ -19,6 +19,10 @@
         <remove-project name="AICP/packages_apps_Settings" />
         <project path="packages/apps/Settings" name="tstprjkt/packages_apps_Settings" remote="hub" revision="t13.0" />
 
+
         
+        <remove-project name="AICP/frameworks_base" />
+        <project path="frameworks/base" name="tstprjkt/frameworks_base-aicp" remote="hub" revision="t13.0" />
+
 </manifest>
  
