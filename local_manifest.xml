@@ -26,6 +26,10 @@
 
         <remove-project name="AICP/frameworks_native" />
         <project path="frameworks/native" name="tstprjkt/frameworks_native" remote="hub" revision="t13.0" />
+
+        <remove-project name="AICP/system_core" />
+        <project path="system/core" name="tstprjkt/system_core-aicp" remote="hub" revision="t13.0" />
+        
         
 </manifest>
  
