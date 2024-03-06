@@ -29,7 +29,9 @@
 
         <remove-project name="AICP/system_core" />
         <project path="system/core" name="tstprjkt/system_core-aicp" remote="hub" revision="t13.0" />
-        
-        
+
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
+        <project path="vendor/qcom/opensource/power" name="ArrowOS/android_vendor_qcom_opensource_power" remote="hub" revision="arrow-13.1" />
+
 </manifest>
  
