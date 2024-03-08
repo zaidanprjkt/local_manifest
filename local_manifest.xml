@@ -10,12 +10,28 @@
         <remote name="hub" fetch="https://github.com/" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="prjkt" revision="miku" clone-depth="1" />
+        <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="prjkt" revision="aicp" clone-depth="1" />
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvendor" revision="tokyo" clone-depth="1" />
         <project path="kernel/xiaomi/chime" name="frstprjkt/kernel_xiaomi_chime-anya" remote="hub" revision="twelve" clone-depth="1" />
 
         <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pex" revision="thirteen" clone-depth="1" />
 
+        <remove-project name="AICP/packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="tstprjkt/packages_apps_Settings" remote="hub" revision="t13.0" />
+
+
+
+        <remove-project name="AICP/frameworks_base" />
+        <project path="frameworks/base" name="tstprjkt/frameworks_base-aicp" remote="hub" revision="t13.0" />
+
+        <remove-project name="AICP/frameworks_native" />
+        <project path="frameworks/native" name="tstprjkt/frameworks_native" remote="hub" revision="t13.0" />
+
+        <remove-project name="AICP/system_core" />
+        <project path="system/core" name="tstprjkt/system_core-aicp" remote="hub" revision="t13.0" />
+
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
+        <project path="vendor/qcom/opensource/power" name="ArrowOS/android_vendor_qcom_opensource_power" remote="hub" revision="arrow-13.1" />
         
 </manifest>
  
