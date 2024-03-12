@@ -12,8 +12,6 @@
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="prjkt" revision="baikal" clone-depth="1" />
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvendor" revision="tokyo" clone-depth="1" />
-        <project path="kernel/xiaomi/chime" name="frstprjkt/kernel_xiaomi_chime-anya" remote="hub" revision="twelve" clone-depth="1" />
-
         
 </manifest>
  
