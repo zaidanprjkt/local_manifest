@@ -14,23 +14,10 @@
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvendor" revision="tokyo" clone-depth="1" />
         <project path="kernel/xiaomi/chime" name="frstprjkt/kernel_xiaomi_chime-anya" remote="hub" revision="twelve" clone-depth="1" />
 
-        <remove-project name="android_hardware_xiaomi" />
-        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pex" revision="thirteen" clone-depth="1" />
-        
-        
-        <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base" remote="alter" revision="13" />
 
         <remove-project name="system_core" />
         <project path="system/core" name="system_core" remote="alter" revision="13" />
-
-        <remove-project name="build_soong" />
         
-        <project path="build/soong" name="build_soong" remote="alter" revision="13" >
-        <linkfile src="root.bp" dest="Android.bp" />
-        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-        </project>
-
         <remove-project name="packages_modules_Permission" />
         <project path="packages/modules/Permission" name="ArrowOS/android_packages_modules_Permission" remote="hub" revision="arrow-13.1" />
         
