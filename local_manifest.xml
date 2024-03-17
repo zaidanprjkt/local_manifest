@@ -10,16 +10,9 @@
         <remote name="hub" fetch="https://github.com/" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="prjkt" revision="afterlife" clone-depth="1" />
+        <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="prjkt" revision="carbon" clone-depth="1" />
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvendor" revision="tokyo" clone-depth="1" />
         <project path="kernel/xiaomi/chime" name="frstprjkt/kernel_xiaomi_chime-anya" remote="hub" revision="twelve" clone-depth="1" />
 
-
-        <remove-project name="system_core" />
-        <project path="system/core" name="system_core" remote="alter" revision="13" />
-        
-        <remove-project name="packages_modules_Permission" />
-        <project path="packages/modules/Permission" name="ArrowOS/android_packages_modules_Permission" remote="hub" revision="arrow-13.1" />
-        
 </manifest>
  
