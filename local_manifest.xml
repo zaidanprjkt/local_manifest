@@ -14,6 +14,8 @@
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="gitlabvendor" revision="tokyo" clone-depth="1" />
         <project path="kernel/xiaomi/chime" name="frstprjkt/kernel_xiaomi_chime-anya" remote="hub" revision="twelve" clone-depth="1" />
 
+       <remove-project name="CarbonROM/android_build_soong" />
+        
        <project path="build/soong" name="newestzdn/android_build_soong" remote="hub" revision="patch-1" >
        <linkfile src="root.bp" dest="Android.bp" />
        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
